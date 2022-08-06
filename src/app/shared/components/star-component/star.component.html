@@ -1,7 +1,11 @@
 <div class="crop"
      [style.width.px]="cropWidth"
-     [title]="rating">
-  <div style="width: 75px">
+     [title]="rating"
+     (click)=""
+     >
+  <div 
+    [style.width.px]="starsWidth"
+  >
     <span class="fa fa-star"></span>
     <span class="fa fa-star"></span>
     <span class="fa fa-star"></span>

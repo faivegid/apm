@@ -1,4 +1,4 @@
-import { Component } from '@npm instaangular/core';
+import { Component } from '@angular/core';
 
 @Component({
   templateUrl: './welcome.component.html'
